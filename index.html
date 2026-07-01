@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#d32f2f">
+<title>TrangMotorbikers — Electric & 50cc Motorbike Rentals in Da Nang</title>
+<meta name="description" content="TrangMotorbikers Da Nang: electric & 50cc motorbike rentals. Daily, weekly, monthly. Book on WhatsApp.">
+<meta property="og:title" content="TrangMotorbikers — Motorbike Rentals in Da Nang">
+<meta property="og:description" content="Electric & 50cc motorbike rentals in Da Nang. Daily, weekly, monthly. Book on WhatsApp.">
+<meta property="og:image" content="img/bikes_row.jpg">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="TrangMotorbikers — Motorbike Rentals in Da Nang">
+<meta name="twitter:description" content="Electric & 50cc motorbike rentals in Da Nang. Book on WhatsApp.">
+<meta name="twitter:image" content="img/bikes_row.jpg">
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">
+    <div class="logo-text">Trang<span>Motorbikers</span></div>
+  </div>
+  <div class="lang">
+    <button class="lang-btn active" data-lang="en">EN</button>
+    <button class="lang-btn" data-lang="vi">VI</button>
+  </div>
+</header>
+
+<section class="hero">
+  <h1 data-i18n="hero_title">Rent a motorbike in Da Nang</h1>
+  <p data-i18n="hero_sub">Electric & 50cc motorbike rentals. Daily, weekly, monthly.</p>
+</section>
+
+<nav class="tabs">
+  <button class="tab active" data-target="electric" data-i18n="tab_electric">Electric motorbikes</button>
+  <button class="tab" data-target="cc50" data-i18n="tab_50cc">50cc motorbikes</button>
+</nav>
+
+<!-- ELECTRIC -->
+<section id="electric" class="panel">
+  <img class="banner" src="img/bike.jpg" alt="Electric motorbike">
+  <h2 data-i18n="electric_h">Electric motorbikes</h2>
+  <p class="muted" data-i18n="electric_p">Quiet, eco-friendly and easy to ride. No gas, no noise — just go.</p>
+
+  <div class="features">
+    <div class="feat"><span>⚡</span><b data-i18n="e_f1">Electric, zero emissions</b></div>
+    <div class="feat"><span>🪪</span><b data-i18n="e_f2">No driver license needed</b></div>
+    <div class="feat"><span>🔋</span><b data-i18n="e_f3">Up to 150 km per charge</b></div>
+    <div class="feat"><span>🪖</span><b data-i18n="e_f4">Helmet & charger included</b></div>
+  </div>
+
+  <h3 data-i18n="price_h">Pricing</h3>
+  <p class="tap-hint" data-i18n="tap_hint">👇 Select a plan, then tap “Book”</p>
+  <div class="cards">
+    <div class="price-card" data-svc="electric" data-plan="e_day"><div class="dur" data-i18n="day">Day</div><div class="amt">150.000<span>₫/day</span></div><div class="usd">≈ $6 / day</div></div>
+    <div class="price-card" data-svc="electric" data-plan="e_week"><div class="dur" data-i18n="week">Week</div><div class="amt">900.000<span>₫/week</span></div><div class="usd">≈ $36 / week</div></div>
+    <div class="price-card best" data-svc="electric" data-plan="e_month"><div class="tag" data-i18n="best">Best value</div><div class="dur" data-i18n="month">Month</div><div class="amt">1.900.000<span>₫/month</span></div><div class="usd">≈ $76 / month</div></div>
+  </div>
+  <button class="btn btn-primary wide" data-wa="electric" data-i18n="book_electric">Book an e-bike on WhatsApp</button>
+
+  <h3 data-i18n="gallery_h">Gallery</h3>
+  <div class="gallery">
+    <img src="img/bike.jpg" alt="E-bike">
+    <img src="img/bikes_row.jpg" alt="E-bikes lineup">
+    <img src="img/bike_single.jpg" alt="Electric motorbike">
+    <img src="img/bike_owner.jpg" alt="TrangMotorbikers">
+  </div>
+</section>
+
+<!-- 50cc -->
+<section id="cc50" class="panel hidden">
+  <img class="banner" src="img/bikes_row.jpg" alt="50cc motorbike">
+  <h2 data-i18n="cc_h">50cc motorbikes (brand new)</h2>
+  <p class="muted" data-i18n="cc_p">Reliable, fuel-efficient and easy to ride. Brand new fleet.</p>
+
+  <div class="features">
+    <div class="feat"><span>🛵</span><b data-i18n="cc_f1">Brand new 50cc</b></div>
+    <div class="feat"><span>⛽</span><b data-i18n="cc_f2">Full tank included</b></div>
+    <div class="feat"><span>🪪</span><b data-i18n="cc_f3">Easy to ride</b></div>
+    <div class="feat"><span>🪖</span><b data-i18n="cc_f4">Helmet included</b></div>
+  </div>
+
+  <h3 data-i18n="price_h">Pricing</h3>
+  <p class="tap-hint" data-i18n="tap_hint">👇 Select a plan, then tap “Book”</p>
+  <div class="cards">
+    <div class="price-card" data-svc="cc50" data-plan="c_day"><div class="dur" data-i18n="day">Day</div><div class="amt">200.000<span>₫/day</span></div><div class="usd">≈ $8 / day</div></div>
+    <div class="price-card" data-svc="cc50" data-plan="c_week"><div class="dur" data-i18n="week">Week</div><div class="amt">1.200.000<span>₫/week</span></div><div class="usd">≈ $48 / week</div></div>
+    <div class="price-card best" data-svc="cc50" data-plan="c_month"><div class="tag" data-i18n="best">Best value</div><div class="dur" data-i18n="month">Month</div><div class="amt">2.500.000<span>₫/month</span></div><div class="usd">≈ $100 / month</div></div>
+  </div>
+  <button class="btn btn-primary wide" data-wa="cc50" data-i18n="book_50cc">Book a 50cc on WhatsApp</button>
+
+  <h3 data-i18n="gallery_h">Gallery</h3>
+  <div class="gallery">
+    <img src="img/bike_single.jpg" alt="50cc motorbike">
+    <img src="img/bikes_row.jpg" alt="Motorbikes lineup">
+    <img src="img/bike.jpg" alt="Motorbike">
+    <img src="img/bike_owner.jpg" alt="TrangMotorbikers">
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact">
+  <h2 data-i18n="contact_h">Get in touch</h2>
+  <div class="hours"><span data-i18n="hours_label">Hours:</span> <b data-i18n="hours_value">8AM–9PM daily</b></div>
+  <div class="contact-grid">
+    <a href="tel:+84707204985" class="cbtn"><span>📞</span><span data-i18n="c_call">Call</span></a>
+    <a href="https://wa.me/84707204985" target="_blank" rel="noopener" class="cbtn"><span>💬</span>WhatsApp</a>
+    <a href="https://maps.app.goo.gl/fgmbRpVaabS8JtLu7" target="_blank" rel="noopener" class="cbtn"><span>🗺️</span><span data-i18n="c_map">Directions</span></a>
+  </div>
+  <p class="addr">📍 Doc tuong rao san bay Nuoc Man, Vo Nguyen Giap, Ngu Hanh Son, Da Nang</p>
+</section>
+
+<footer>
+  <button id="installBtn" class="install hidden" data-i18n="install">⬇️ Install app</button>
+  <small>© TrangMotorbikers Da Nang · <span data-i18n="usd_note">USD prices are approximate</span></small>
+</footer>
+
+<!-- Chat widget -->
+<button id="chatToggle" class="chat-toggle" aria-label="Chat">💬</button>
+<div id="chatBox" class="chat-box hidden">
+  <div class="chat-head">
+    <b data-i18n="chat_title">TrangMotorbikers</b>
+    <button id="chatClose" aria-label="Close">✕</button>
+  </div>
+  <div id="chatLog" class="chat-log"></div>
+  <div id="chatReplies" class="chat-replies"></div>
+  <form id="chatForm" class="chat-form">
+    <input id="chatInput" type="text" autocomplete="off" data-i18n-placeholder="chat_placeholder" placeholder="Type your question…">
+    <button type="submit" aria-label="Send">➤</button>
+  </form>
+</div>
+
+<div id="lightbox" class="lightbox hidden"><img id="lightbox-img" src="" alt=""></div>
+
+<script src="app.js"></script>
+<script src="chat.js"></script>
+</body>
+</html>

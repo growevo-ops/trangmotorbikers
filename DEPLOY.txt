@@ -1,0 +1,23 @@
+# TrangMotorbikers — PWA
+
+A simple installable website for TrangMotorbikers Da Nang (electric & 50cc motorbike rentals).
+
+## Live site
+https://growevo-ops.github.io/trangmotorbikers/
+
+## Publish for free on GitHub Pages
+1. Create a free account at github.com.
+2. Click "New repository", name it `trangmotorbikers` (Public), Create.
+3. Click "uploading an existing file" and drag ALL files from this folder
+   (index.html, styles.css, app.js, chat.js, sw.js, manifest.json, the `icons/` and `img/` folders).
+4. Commit. Then go to: Settings -> Pages -> Source: "Deploy from a branch" -> Branch: `main` / `/root` -> Save.
+5. After ~1 minute your site is live at: https://YOUR-USERNAME.github.io/trangmotorbikers/
+6. Open that link on a phone -> browser menu -> "Add to Home screen" to install the app.
+
+## Easiest alternative (no account/code): Netlify Drop
+Go to app.netlify.com/drop and drag this whole folder onto the page — instant live link.
+
+## Editing
+All prices/texts are in `app.js` (the I18N section) and `index.html`.
+Chat answers are in `chat.js` (the CHAT section).
+WhatsApp number: +84 707 204 985.
