@@ -67,6 +67,7 @@
   };
 
   var toggle=document.getElementById('chatToggle');
+  var wrap=document.querySelector('.chat-wrap');
   var box=document.getElementById('chatBox');
   var closeBtn=document.getElementById('chatClose');
   var log=document.getElementById('chatLog');
@@ -152,7 +153,7 @@
 
   function close(){ box.classList.add('hidden'); }
 
-  toggle.addEventListener('click', function(){ if(box.classList.contains('hidden')) open(); else close(); });
+  wrap.addEventListener('click', function(e){ if(box.classList.contains('hidden')) open(); else close(); });
   closeBtn.addEventListener('click', close);
   form.addEventListener('submit', function(e){
     e.preventDefault();
@@ -170,6 +171,6 @@
 
   document.addEventListener('click', function(e){
     if(box.classList.contains('hidden')) return;
-    if(!box.contains(e.target) && e.target!==toggle && !toggle.contains(e.target)) close();
+    if(!box.contains(e.target) && !wrap.contains(e.target)) close();
   });
 })();

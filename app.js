@@ -36,7 +36,8 @@ var I18N = {
     "usd_note": "USD prices are approximate",
     "chat_title": "TrangMotorbikers",
     "chat_placeholder": "Type your question…",
-    "chat_welcome": "Hi! 👋 Ask me anything about rentals, or tap a question below."
+    "chat_welcome": "Hi! 👋 Ask me anything about rentals, or tap a question below.",
+    "chat_label": "Chat"
   },
   "vi": {
     "tagline": "Cho thuê xe máy điện & xăng · Đà Nẵng",
@@ -74,7 +75,8 @@ var I18N = {
     "usd_note": "Giá USD chỉ tham khảo",
     "chat_title": "TrangMotorbikers",
     "chat_placeholder": "Nhập câu hỏi của bạn…",
-    "chat_welcome": "Xin chào! 👋 Hỏi về thuê xe hoặc chạm vào câu hỏi bên dưới."
+    "chat_welcome": "Xin chào! 👋 Hỏi về thuê xe hoặc chạm vào câu hỏi bên dưới.",
+    "chat_label": "Chat"
   }
 };
 
