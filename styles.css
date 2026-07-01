@@ -27,7 +27,7 @@ a{text-decoration:none;color:inherit}
 
 /* buttons */
 .btn{display:inline-block;border:0;border-radius:12px;padding:13px 18px;font-weight:700;font-size:15px;cursor:pointer;text-align:center}
-.btn-primary{background:var(--yellow);color:var(--ink)}
+.btn-primary{background:var(--accent);color:#fff}
 .btn.wide{display:block;width:100%;margin-top:18px;padding:16px}
 
 /* tabs */
