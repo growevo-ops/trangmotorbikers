@@ -11,10 +11,10 @@
         {key:"book",    label:"Book now"}
       ],
       "answers": {
-        "prices":  "Electric: 150.000₫/day, 900.000₫/week, 1.900.000₫/month.\n50cc: 200.000₫/day, 1.200.000₫/week, 2.500.000₫/month.\nMonthly = best value! 💰",
+        "prices":  "Electric: 150.000₫/day, 900.000₫/week, 1.900.000₫/month.\nGas-powered (50cc+): 200.000₫/day, 1.200.000₫/week, 2.500.000₫/month.\nMonthly = best value! 💰",
         "charge":  "Every e-bike comes with a charger. Charge at any standard socket — full charge ~3h, range up to 150 km. 🔌",
         "helmets": "Yes! A helmet is included with every rental, free of charge. 🪖",
-        "monthly": "Monthly is our best value:\nElectric 1.900.000₫ (~$76)\n50cc 2.500.000₫ (~$100)\nTap “Book now” to reserve. 📅",
+        "monthly": "Monthly is our best value:\nElectric 1.900.000₫ (~$76)\nGas-powered (50cc+) 2.500.000₫ (~$100)\nTap “Book now” to reserve. 📅",
         "location":"Doc tuong rao san bay Nuoc Man, Vo Nguyen Giap, Ngu Hanh Son, Da Nang.\nOpen 8AM–9PM daily. 📍",
         "book":    "Great! Tap below to message us on WhatsApp and we'll confirm your booking. 👇"
       },
@@ -33,10 +33,10 @@
         {key:"book",    label:"Đặt xe"}
       ],
       "answers": {
-        "prices":  "Xe điện: 150.000₫/ngày, 900.000₫/tuần, 1.900.000₫/tháng.\n50cc: 200.000₫/ngày, 1.200.000₫/tuần, 2.500.000₫/tháng.\nThuê tháng = giá tốt nhất! 💰",
+        "prices":  "Xe điện: 150.000₫/ngày, 900.000₫/tuần, 1.900.000₫/tháng.\nXe động cơ (50cc trở lên): 200.000₫/ngày, 1.200.000₫/tuần, 2.500.000₫/tháng.\nThuê tháng = giá tốt nhất! 💰",
         "charge":  "Mỗi xe điện kèm bộ sạc. Sạc tại ổ cắm tiêu chuẩn — sạc đầy ~3h, đi được 150 km. 🔌",
         "helmets": "Có! Mũ bảo hiểm kèm miễn phí cho mỗi lượt thuê. 🪖",
-        "monthly": "Thuê tháng là giá tốt nhất:\nXe điện 1.900.000₫ (~$76)\n50cc 2.500.000₫ (~$100)\nBấm “Đặt xe” để giữ xe. 📅",
+        "monthly": "Thuê tháng là giá tốt nhất:\nXe điện 1.900.000₫ (~$76)\nXe động cơ (50cc trở lên) 2.500.000₫ (~$100)\nBấm “Đặt xe” để giữ xe. 📅",
         "location":"Doc tuong rao san bay Nuoc Man, Vo Nguyen Giap, Ngu Hanh Son, Đà Nẵng.\nMở cửa 8h–21h hàng ngày. 📍",
         "book":    "Tuyệt! Bấm bên dưới để nhắn trên WhatsApp, mình sẽ xác nhận đặt xe. 👇"
       },

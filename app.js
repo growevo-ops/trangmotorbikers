@@ -1,20 +1,20 @@
 // ---- i18n / data ----
 var I18N = {
   "en": {
-    "tagline": "Electric & 50cc motorbike rentals · Da Nang",
+    "tagline": "Electric & gas-powered motorbike rentals · Da Nang",
     "hero_title": "Rent a motorbike in Da Nang",
-    "hero_sub": "Electric & 50cc motorbike rentals. Daily, weekly, monthly.",
+    "hero_sub": "Electric & gas-powered motorbike rentals. Daily, weekly, monthly.",
     "tab_electric": "Electric motorbikes",
-    "tab_50cc": "50cc motorbikes",
-    "electric_h": "Electric motorbikes",
-    "electric_p": "Quiet, eco-friendly and easy to ride. No gas, no noise — just go.",
+    "tab_gas": "Gas-Powered (50cc+)",
+    "electric_h": "Electric Motorbikes",
+    "electric_p": "Silent. Clean. Effortless. Explore Da Nang with zero emissions and a full charge.",
     "e_f1": "Electric, zero emissions",
     "e_f2": "No driver license needed",
     "e_f3": "Up to 150 km per charge",
     "e_f4": "Helmet & charger included",
-    "cc_h": "50cc motorbikes (brand new)",
-    "cc_p": "Reliable, fuel-efficient and easy to ride. Brand new fleet.",
-    "cc_f1": "Brand new 50cc",
+    "cc_h": "Gas-Powered (50cc+)",
+    "cc_p": "Classic power. Full tank included. From 50cc and up — ready for any road in Da Nang.",
+    "cc_f1": "50cc and up",
     "cc_f2": "Full tank included",
     "cc_f3": "Easy to ride",
     "cc_f4": "Helmet included",
@@ -25,7 +25,7 @@ var I18N = {
     "month": "Month",
     "best": "Best value",
     "book_electric": "Book an e-bike on WhatsApp",
-    "book_50cc": "Book a 50cc on WhatsApp",
+    "book_gas": "Book a gas-powered bike on WhatsApp",
     "gallery_h": "Gallery",
     "contact_h": "Get in touch",
     "hours_label": "Hours:",
@@ -39,20 +39,20 @@ var I18N = {
     "chat_welcome": "Hi! 👋 Ask me anything about rentals, or tap a question below."
   },
   "vi": {
-    "tagline": "Cho thuê xe máy điện & 50cc · Đà Nẵng",
+    "tagline": "Cho thuê xe máy điện & xăng · Đà Nẵng",
     "hero_title": "Thuê xe máy ở Đà Nẵng",
-    "hero_sub": "Cho thuê xe máy điện & 50cc. Theo ngày, tuần, tháng.",
+    "hero_sub": "Cho thuê xe máy điện & xăng. Theo ngày, tuần, tháng.",
     "tab_electric": "Xe máy điện",
-    "tab_50cc": "Xe máy 50cc",
+    "tab_gas": "Xe động cơ (50cc trở lên)",
     "electric_h": "Xe máy điện",
-    "electric_p": "Êm ái, thân thiện môi trường và dễ lái. Không xăng, không ồn — chỉ cần đi.",
+    "electric_p": "Êm ái. Sạch sẽ. Dễ dàng. Khám phá Đà Nẵng không khí thải, luôn đầy pin.",
     "e_f1": "Điện, không khí thải",
     "e_f2": "Không cần bằng lái",
     "e_f3": "Đi được 150 km mỗi lần sạc",
     "e_f4": "Kèm mũ bảo hiểm & bộ sạc",
-    "cc_h": "Xe máy 50cc (mới 100%)",
-    "cc_p": "Bền bỉ, tiết kiệm xăng và dễ lái. Dàn xe mới hoàn toàn.",
-    "cc_f1": "50cc mới 100%",
+    "cc_h": "Xe động cơ (50cc trở lên)",
+    "cc_p": "Động cơ xăng. Đầy bình. Từ 50cc trở lên — sẵn sàng chinh phục mọi cung đường Đà Nẵng.",
+    "cc_f1": "50cc trở lên",
     "cc_f2": "Đầy bình xăng",
     "cc_f3": "Dễ lái",
     "cc_f4": "Kèm mũ bảo hiểm",
@@ -63,7 +63,7 @@ var I18N = {
     "month": "Tháng",
     "best": "Giá tốt nhất",
     "book_electric": "Đặt xe điện qua WhatsApp",
-    "book_50cc": "Đặt xe 50cc qua WhatsApp",
+    "book_gas": "Đặt xe xăng qua WhatsApp",
     "gallery_h": "Hình ảnh",
     "contact_h": "Liên hệ",
     "hours_label": "Giờ làm việc:",
@@ -84,8 +84,8 @@ var TEMPL = {
     "vi": "Xin chào TrangMotorbikers! 🛵 Mình muốn THUÊ XE MÁY ĐIỆN — gói: {plan}. Cho mình hỏi còn xe và cách nhận xe nhé."
   },
   "cc50": {
-    "en": "Hello TrangMotorbikers! 🛵 I'd like to RENT A 50CC MOTORBIKE — plan: {plan}. Please confirm availability and pickup.",
-    "vi": "Xin chào TrangMotorbikers! 🛵 Mình muốn THUÊ XE MÁY 50CC — gói: {plan}. Cho mình hỏi còn xe và cách nhận xe nhé."
+    "en": "Hello TrangMotorbikers! 🛵 I'd like to RENT A GAS-POWERED MOTORBIKE — plan: {plan}. Please confirm availability and pickup.",
+    "vi": "Xin chào TrangMotorbikers! 🛵 Mình muốn THUÊ XE ĐỘNG CƠ — gói: {plan}. Cho mình hỏi còn xe và cách nhận xe nhé."
   }
 };
 
@@ -95,8 +95,8 @@ var WA = {
     "vi": "Xin chào TrangMotorbikers! 🛵 Mình muốn THUÊ XE MÁY ĐIỆN. Cho mình hỏi xe còn trống và cách nhận xe nhé. "
   },
   "cc50": {
-    "en": "Hello TrangMotorbikers! 🛵 I'd like to RENT A 50CC MOTORBIKE. Please share availability and how to pick it up. ",
-    "vi": "Xin chào TrangMotorbikers! 🛵 Mình muốn THUÊ XE MÁY 50CC. Cho mình hỏi xe còn trống và cách nhận xe nhé. "
+    "en": "Hello TrangMotorbikers! 🛵 I'd like to RENT A GAS-POWERED MOTORBIKE. Please share availability and how to pick it up. ",
+    "vi": "Xin chào TrangMotorbikers! 🛵 Mình muốn THUÊ XE ĐỘNG CƠ. Cho mình hỏi xe còn trống và cách nhận xe nhé. "
   }
 };
 
